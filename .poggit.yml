@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/killer549/TimerPlus
+branches:
+- master
+projects:
+  TimerPlus:
+    path: ""
+    icon: "icon.png"
+...
