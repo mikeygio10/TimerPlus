@@ -1,3 +1,7 @@
+[![](https://poggit.pmmp.io/shield.state/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
+
+<a href="https://poggit.pmmp.io/p/TimerPlus"><img src="https://poggit.pmmp.io/shield.state/TimerPlus"></a>
+
 # TimerPlus Plugin
 A plugin which starts a timer using command
 
@@ -17,9 +21,3 @@ Note: [time] here is the number of seconds. /stimer 35 means 35 seconds, /stimer
 - Config file with new features.
 
 - Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the executes).
-
-
-
-
-
-
