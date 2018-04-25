@@ -1,6 +1,5 @@
 [![](https://poggit.pmmp.io/shield.state/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
-
-<a href="https://poggit.pmmp.io/p/TimerPlus"><img src="https://poggit.pmmp.io/shield.state/TimerPlus"></a>
+[![](https://poggit.pmmp.io/shield.api/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
 
 # TimerPlus Plugin
 A plugin which starts a timer using command
