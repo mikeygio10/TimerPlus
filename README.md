@@ -25,9 +25,14 @@ Note: [time] here is the number of seconds. /stimer 35 means 35 seconds, /stimer
 `/stimer [cancel]` => Will cancel the timer
 
 ## TODO
+
 - Config file with new features.
 
-- Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the executes).
+- Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the stimer command executes).
+
+- Add command execution feature (ex: /stimer [50] [A player will be killed] [/kill killer549]).
+
+
 
 ## Licensing information
 
