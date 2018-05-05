@@ -15,17 +15,14 @@ class task extends PluginTask {
 		$this->plugin = $plugin;
 	}
 
-	public function onRun($currentTick) {			
+	public function onRun(int $currentTick) {			
 		$hours = floor($this->plugin->timer / 3600);
 		$mins = floor(($this->plugin->timer / 60) % 60);
 		$secs = $this->plugin->timer % 60;
 		if($this->plugin->timer > 0) {
 			$this->plugin->timer -= 1;
-		}
-		
-		if($this->plugin->timer == 0) {
-			$this->plugin->getServer()->getScheduler()->cancelTask($this->getTaskId());
-			$this->plugin->p->sendMessage(color::GREEN. "Finished counting-down.");
+		}elseif($this->plugin->timer <= 0) {
+			$this->plugin->stopTask($this->getTaskId());
 		}
 		if($hours < 1){
 			$Timer = color::GOLD . "Timer: " . color::YELLOW. $mins . " : ". $secs. color::WHITE. "\n";

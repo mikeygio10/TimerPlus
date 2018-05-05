@@ -1,6 +1,6 @@
 name: TimerPlus
 author: killer549
-version: 1.0.0-beta
+version: 1.0.0
 api: [3.0.0-ALPHA12]
 description: Timer plugin
 main: killer549\timerplus\timerplus
@@ -10,5 +10,5 @@ commands:
         permission: TimerPlus.command.stimer
 permissions:
     TimerPlus.command.stimer:
-        default: op
+        default: true
         description: Starts the timer
