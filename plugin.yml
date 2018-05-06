@@ -1,6 +1,6 @@
 name: TimerPlus
 author: killer549
-version: 1.0.0
+version: 1.1.0
 api: [3.0.0-ALPHA12]
 description: Timer plugin
 main: killer549\timerplus\timerplus
