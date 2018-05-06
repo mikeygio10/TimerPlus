@@ -1,25 +1,34 @@
 [![](https://poggit.pmmp.io/shield.state/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
 [![](https://poggit.pmmp.io/shield.api/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
 
+[![](https://poggit.pmmp.io/shield.dl.total/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
+[![](https://poggit.pmmp.io/shield.dl/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
+
 # TimerPlus Plugin
 A plugin which starts a timer using command
 
-## General 
+## Description
 
 Now you can notify online players about something that will happen after a specific time period using command which will start an automatic timer.
 
-## Usage 
+## Commands
 
-`/stimer [time] [reason]` => Starts the timer. Giving a reason is optional
-
-Note: [time] here is the number of seconds. /stimer 35 means 35 seconds, /stimer 180 means 3 minutes, /stimer 7200 means 2 hours, etc..
-
-`/stimer [cancel]` => Will cancel the timer
+`/stimer help` => Gives a list of all the commands available.
+`/stimer set [seconds] [reason]`=> Sets and start the timer. Giving a reason is optional.
+`/stimer cancel` => Cancels the current timer
+`/stimer cmd [command]` => executes command when timer finish counting (The activator only can use this)].
 
 ## TODO
-- Config file with new features.
-
 - Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the executes).
+
+- More features.
+
+## Contribution:
+Feel free to contribute if you have ideas or found an issue.
+Links:
+
+- [Open an issue](https://github.com/killer549/TimerPlus/issues)
+- [Add something new or fix a bug](https://github.com/killer549/TimerPlus/pulls)
 
 ## Licensing information
 
