@@ -1,15 +1,7 @@
-# TimerPlus Plugin
-<p align="center">
-    <img src="icon.png" width="100px" height="100px">
-</p>
-
 [![](https://poggit.pmmp.io/shield.state/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
 [![](https://poggit.pmmp.io/shield.api/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
 
-[![](https://poggit.pmmp.io/shield.dl.total/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
-[![](https://poggit.pmmp.io/shield.dl/TimerPlus)](https://poggit.pmmp.io/p/TimerPlus)
-
-## Description
+# TimerPlus Plugin
 A plugin which starts a timer using command
 
 ## General 
@@ -25,14 +17,9 @@ Note: [time] here is the number of seconds. /stimer 35 means 35 seconds, /stimer
 `/stimer [cancel]` => Will cancel the timer
 
 ## TODO
-
 - Config file with new features.
 
-- Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the stimer command executes).
-
-- Add command execution feature (ex: /stimer [50] [A player will be killed] [/kill killer549]).
-
-
+- Command to tell the player the reason of starting the timer again (As the only way to know the reason for now is when the executes).
 
 ## Licensing information
 

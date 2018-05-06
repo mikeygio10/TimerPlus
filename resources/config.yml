@@ -1,0 +1,10 @@
+---
+#If you want to start sound effects when timer is about to finish, set true.
+finishing_sounds: true
+#If finishing_sounds is true, please set the time(in seconds) that the sound will start occuring.
+finishing_sounds_time: 20
+#Set true if you want a title to appear when timer is about to finish.
+finishing_titles: true
+#If finishing_titles is true, please set the time(in seconds) that the titles will start occuring.
+finishing_titles_time: 10
+
